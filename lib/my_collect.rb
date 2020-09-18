@@ -3,7 +3,7 @@ def my_collect(collection)
   
   while counter < collection.length
     "adnksd"
-    
+    yield(collection)
     counter += 1
   end
   collection
