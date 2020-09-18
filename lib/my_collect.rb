@@ -5,7 +5,7 @@ def my_collect(collection)
     yield(temp_col[counter])
     counter += 1
   end
-  puts temp_col
+  puts temp_col.split(" ").first
   temp_col
 end
 
