@@ -1,6 +1,6 @@
 def my_collect(collection)
   counter = 0
-  temp_col = collection
+  temp_col = collection.split
   while counter < collection.length
     yield(temp_col)
     counter += 1
