@@ -5,6 +5,6 @@ def my_collect(collection)
     yield(temp_col)
     counter += 1
   end
-  collection
+  temp_col
 end
 
